@@ -1,0 +1,61 @@
+{
+  "_from": "com.testfairy.cordova-plugin",
+  "_id": "com.testfairy.cordova-plugin@2.10.0",
+  "_inBundle": false,
+  "_integrity": "sha1-XrZ1489p1+qLtylKOGs9T8W2l6A=",
+  "_location": "/com.testfairy.cordova-plugin",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "com.testfairy.cordova-plugin",
+    "name": "com.testfairy.cordova-plugin",
+    "escapedName": "com.testfairy.cordova-plugin",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/com.testfairy.cordova-plugin/-/com.testfairy.cordova-plugin-2.10.0.tgz",
+  "_shasum": "5eb675e3cf69d7ea8bb7294a386b3d4fc5b697a0",
+  "_spec": "com.testfairy.cordova-plugin",
+  "_where": "/Users/lmeza/Documents/Mobile-Development/Cordova/cordova-angular4-gps",
+  "author": {
+    "name": "Apache Software Foundation"
+  },
+  "bugs": {
+    "url": "https://github.com/testfairy/testfairy-cordova-plugin/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "com.testfairy.cordova-plugin",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "TestFairy SDK plugin for Cordova",
+  "homepage": "https://github.com/testfairy/testfairy-cordova-plugin",
+  "keywords": [
+    "cordova",
+    "testfairy",
+    "tests",
+    "monitoring",
+    "distribution",
+    "testflight",
+    "cordova-ios",
+    "cordova-android",
+    "ecosystem:cordova"
+  ],
+  "license": "Apache 2.0",
+  "name": "com.testfairy.cordova-plugin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/testfairy/testfairy-cordova-plugin.git"
+  },
+  "version": "2.10.0"
+}

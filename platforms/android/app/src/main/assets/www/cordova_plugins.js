@@ -87,13 +87,22 @@ module.exports = [
     "merges": [
       "cordova.plugins.diagnostic.external_storage"
     ]
+  },
+  {
+    "id": "com.testfairy.cordova-plugin.TestFairy",
+    "file": "plugins/com.testfairy.cordova-plugin/www/testfairy.js",
+    "pluginId": "com.testfairy.cordova-plugin",
+    "clobbers": [
+      "TestFairy"
+    ]
   }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
   "cordova-plugin-whitelist": "1.3.3",
-  "cordova.plugins.diagnostic": "4.0.5"
+  "cordova.plugins.diagnostic": "4.0.5",
+  "com.testfairy.cordova-plugin": "2.10.0"
 };
 // BOTTOM OF METADATA
 });

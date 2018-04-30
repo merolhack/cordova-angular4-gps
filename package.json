@@ -5,7 +5,13 @@
     "description": "A sample Apache Cordova application that responds to the deviceready event.",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build:android": "cordova build android",
+        "build:ios": "cordova build ios",
+        "emulate:android": "cordova emulate android",
+        "emulate:ios": "cordova emulate ios",
+        "run:android": "cordova run android",
+        "run:ios": "cordova run ios"
     },
     "author": "Lenin Meza <merolhack@gmail.com>",
     "license": "Apache-2.0",
@@ -19,6 +25,7 @@
     },
     "homepage": "https://github.com/merolhack/cordova-angular4-gps#readme",
     "dependencies": {
+        "com.testfairy.cordova-plugin": "^2.10.0",
         "cordova-android": "^7.0.0",
         "cordova-ios": "^4.5.4",
         "cordova-plugin-whitelist": "1",
@@ -27,7 +34,8 @@
     "cordova": {
         "plugins": {
             "cordova-plugin-whitelist": {},
-            "cordova.plugins.diagnostic": {}
+            "cordova.plugins.diagnostic": {},
+            "com.testfairy.cordova-plugin": {}
         },
         "platforms": [
             "ios",

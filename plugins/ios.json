@@ -12,6 +12,9 @@
     },
     "cordova.plugins.diagnostic": {
       "PACKAGE_NAME": "com.sociedadred.gps"
+    },
+    "com.testfairy.cordova-plugin": {
+      "PACKAGE_NAME": "com.sociedadred.gps"
     }
   },
   "dependent_plugins": {}

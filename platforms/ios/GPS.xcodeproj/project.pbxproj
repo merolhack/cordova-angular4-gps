@@ -36,6 +36,11 @@
 		575FAEBBB1EA4237AF90F3E9 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29482DE3C7D24C0B949701CA /* AddressBook.framework */; };
 		AC670A03DDDC4EB99C56E5C3 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E78ADBAF5F6D4B85B9D2FD9E /* EventKit.framework */; };
 		7246FF749A214DE6B074DF39 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E4404138314D178BCBEB88 /* CoreMotion.framework */; };
+		45C14A968C844EE6AED404C3 /* CDVTestFairy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF04158AE7C450981E13C11 /* CDVTestFairy.m */; };
+		58BAF56E2B9248F3AC76AF60 /* libTestFairy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A163A056FF41F59D9EC515 /* libTestFairy.a */; };
+		7038C624AD784A01837CFDF4 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA5B5E4F887465881AB3BDA /* CoreMedia.framework */; };
+		B29A671CFE504A3C8E0C06A5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E687ED5A4E348459FCC684D /* SystemConfiguration.framework */; };
+		9D2C1E1924EB4562ACAD3736 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690F542A373048ADBF3A64CA /* OpenGLES.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +112,13 @@
 		29482DE3C7D24C0B949701CA /* AddressBook.framework */ = {isa = PBXFileReference; name = "AddressBook.framework"; path = "System/Library/Frameworks/AddressBook.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 		E78ADBAF5F6D4B85B9D2FD9E /* EventKit.framework */ = {isa = PBXFileReference; name = "EventKit.framework"; path = "System/Library/Frameworks/EventKit.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 		C0E4404138314D178BCBEB88 /* CoreMotion.framework */ = {isa = PBXFileReference; name = "CoreMotion.framework"; path = "System/Library/Frameworks/CoreMotion.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		1BF04158AE7C450981E13C11 /* CDVTestFairy.m */ = {isa = PBXFileReference; name = "CDVTestFairy.m"; path = "com.testfairy.cordova-plugin/CDVTestFairy.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		E5A163A056FF41F59D9EC515 /* libTestFairy.a */ = {isa = PBXFileReference; name = "libTestFairy.a"; path = "GPS/Plugins/com.testfairy.cordova-plugin/libTestFairy.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		F795D06FE78B425C963E164F /* TestFairy.h */ = {isa = PBXFileReference; name = "TestFairy.h"; path = "com.testfairy.cordova-plugin/TestFairy.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		111667E8EDEA464F99EA9050 /* CDVTestFairy.h */ = {isa = PBXFileReference; name = "CDVTestFairy.h"; path = "com.testfairy.cordova-plugin/CDVTestFairy.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		DAA5B5E4F887465881AB3BDA /* CoreMedia.framework */ = {isa = PBXFileReference; name = "CoreMedia.framework"; path = "System/Library/Frameworks/CoreMedia.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		1E687ED5A4E348459FCC684D /* SystemConfiguration.framework */ = {isa = PBXFileReference; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		690F542A373048ADBF3A64CA /* OpenGLES.framework */ = {isa = PBXFileReference; name = "OpenGLES.framework"; path = "System/Library/Frameworks/OpenGLES.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +136,10 @@
 				575FAEBBB1EA4237AF90F3E9 /* AddressBook.framework in Frameworks */,
 				AC670A03DDDC4EB99C56E5C3 /* EventKit.framework in Frameworks */,
 				7246FF749A214DE6B074DF39 /* CoreMotion.framework in Frameworks */,
+				58BAF56E2B9248F3AC76AF60 /* libTestFairy.a in Frameworks */,
+				7038C624AD784A01837CFDF4 /* CoreMedia.framework in Frameworks */,
+				B29A671CFE504A3C8E0C06A5 /* SystemConfiguration.framework in Frameworks */,
+				9D2C1E1924EB4562ACAD3736 /* OpenGLES.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +219,10 @@
 				29482DE3C7D24C0B949701CA /* AddressBook.framework */,
 				E78ADBAF5F6D4B85B9D2FD9E /* EventKit.framework */,
 				C0E4404138314D178BCBEB88 /* CoreMotion.framework */,
+				E5A163A056FF41F59D9EC515 /* libTestFairy.a */,
+				DAA5B5E4F887465881AB3BDA /* CoreMedia.framework */,
+				1E687ED5A4E348459FCC684D /* SystemConfiguration.framework */,
+				690F542A373048ADBF3A64CA /* OpenGLES.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -250,6 +270,9 @@
 				BBA5B63F376E4E429AEDB798 /* Diagnostic_Calendar.h */,
 				0D44BE41818B4F19BCE7AC68 /* Diagnostic_Reminders.h */,
 				8314C14EC1924855A101CE36 /* Diagnostic_Motion.h */,
+				1BF04158AE7C450981E13C11 /* CDVTestFairy.m */,
+				F795D06FE78B425C963E164F /* TestFairy.h */,
+				111667E8EDEA464F99EA9050 /* CDVTestFairy.h */,
 			);
 			name = Plugins;
 			path = "GPS/Plugins";
@@ -373,6 +396,7 @@
 				776BE01E3C0D4819ADD04D17 /* Diagnostic_Calendar.m in Sources */,
 				1F4135C3E8494C9C9FD890E1 /* Diagnostic_Reminders.m in Sources */,
 				3D6BF2E20B5A40018CD4CAD8 /* Diagnostic_Motion.m in Sources */,
+				45C14A968C844EE6AED404C3 /* CDVTestFairy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +432,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				PRODUCT_NAME = "GPS";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/GPS/Plugins/com.testfairy.cordova-plugin\"",
+				);
 			};
 			name = Debug;
 		};
@@ -430,6 +458,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				PRODUCT_NAME = "GPS";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/GPS/Plugins/com.testfairy.cordova-plugin\"",
+				);
 			};
 			name = Release;
 		};
