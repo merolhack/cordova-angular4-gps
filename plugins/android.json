@@ -9,6 +9,9 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.sociedadred.gps"
+    },
+    "cordova.plugins.diagnostic": {
+      "PACKAGE_NAME": "com.sociedadred.gps"
     }
   },
   "dependent_plugins": {}
